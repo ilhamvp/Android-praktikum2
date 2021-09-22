@@ -37,9 +37,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_buka_profile:
                 Intent pp = new Intent(MainActivity.this, ProfileActivity_baru.class);
                 Bundle bd = new Bundle();
-                bd.putString("name", "Gading Sectio Aryoseto");
-                bd.putString("email", "gadingsectio@gmail.com");
-                bd.putInt("age", 19);
+                bd.putString("name", "Ilham Vanny Putra");
+                bd.putString("email", "dev@Ilham.id");
+                bd.putInt("age", 24);
                 pp.putExtra("Profile", bd);
                 startActivity(pp);
                 break;
